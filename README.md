@@ -64,4 +64,6 @@ MINIO_CACHE_BUCKET=cache
 ```
 - Potrebno je instalirati sve potrebne biblioteke iz `docker/requirements.txt` fajla
 - Prvo je potrebno podići infrastrukturu, a zatim pokrenutati skripte
+- Za podešavanje konfiguracija, koristiti konfiguracione fajlove u `main/configs` direktorijumu
+- Prilikom dodavanja source-a u Grafani, koristiti `host.docker.internal:port` za pristup RisingWave-u
 - **Važno** Kada se pokrene Docker Desktop, potrebno je prebaciti se na WSL (Linux) engine, ako nije već podešeno.
